@@ -1,9 +1,21 @@
-# PyGMTSAR Docker Image
+# PyGMTSAR Dockerized Environment
 
-A lightweight Dockerized environment for [PyGMTSAR](https://github.com/YOUR_LINK),
-supporting multi-architecture builds (amd64/arm64) and local testing.
+A minimal, reproducible Docker environment for [PyGMTSAR](https://github.com/geodesymiami/pygmtsar), designed for research, testing, and demonstration purposes.
 
-## Build Image
+---
+
+##  Features
+
+-  Dockerized Python + PyGMTSAR environment  
+-  Multi-architecture support (`amd64` + `arm64`)  
+-  Automated build & push via GitHub Actions  
+-  Verified import and example workflow script
+
+---
+
+## ⚙️ Quick Start
+
+### Build locally
 ```bash
 docker build -t pygmtsar .
 
