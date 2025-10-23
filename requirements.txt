@@ -1,5 +1,5 @@
 # Minimal Python dependencies for PyGMTSAR
-pygmtsar==0.3.2
+pygmtsar==2025.4.8.post1
 numpy>=1.27.0
 scipy>=1.12.0
 
